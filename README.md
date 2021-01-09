@@ -70,7 +70,7 @@ There are 2 kind of Perks that can be spawned and obtrained:
 ![Player's plane](./Release/resources/ui/Icon.png)
 
 ### Player
-Player movements: Arrow Keys
+Player movements: Arrow Keys\n
 Shoot: Space bar
 
 ![Player's bullet](./Release/resources/player/bullet.png)
