@@ -7,7 +7,7 @@ The game is based on the old videogame [1945: The Final Front](https://www.youtu
 
 ## User Guide
 
-In the Release folder you will find the Final Game if you want to play it immediatly.
+In the Release tab on the right part of the screen you, will find the Final Game download link if you want to play it immediatly.
 
 ## Developer Guidelines
 
