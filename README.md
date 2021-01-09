@@ -15,7 +15,7 @@ Install clang as compiler.
 Install CMake and use the compiling kit inside Visual Studio Code named amd64 to make builds.
 Inside Visual Studio Code make a Delete Cache and Reconfigure to refresh the project paths.
 
-![Loading image](./Project 1945 source/resources/loading.gif)
+![Loading image](./Project_1945_source/resources/loading.gif)
 
 ## Game Description
 In Project 1945 you will be able to Embark yourself in a 640x480 resolution adventure and save in the Main Menu your Best Scores and all your Boss Kills.
@@ -39,7 +39,7 @@ On the bottom of the screen you will see an Info Panel about the statistics of t
 - a Score Counter, in the bottom middle part of the screen:  
 1) You will receive Score Points every time you destroy another plane or bullet or get a perk;
 
-![Info Panel](./Project 1945 source/resources/ui/bottom.png)
+![Info Panel](./Project_1945_source/resources/ui/bottom.png)
 
 Your plane is positioned in the bottom middle part of the screen, at the border with the below Info Panel. You will not be able to move into the Info Panel.
 Losing all your Lifes or defeating the Final Boss will let the game restart, if you want to quit and return to the Main Menu just press the "Esc" button.
@@ -47,12 +47,12 @@ During the game some bullets, planes, perks and islands will be spawned in the t
 The other planes and the Final Boss will not follow always a straight direction and sometimes they will move horizzontally to the rigth or to the left direction.
 The other planes sometimes will shoot some bullets ahead of them. You can also shoot your bullets.
 
-![Island1](./Project 1945 source/resources/map/island1.png) ![Island2](./Project 1945 source/resources/map/island2.png) ![Island3](./Project 1945 source/resources/map/island3.png)
+![Island1](./Project_1945_source/resources/map/island1.png) ![Island2](./Project_1945_source/resources/map/island2.png) ![Island3](./Project_1945_source/resources/map/island3.png)
 
 When you lost a life and your plane is blinking you cannot be damaged or obtain any sort of Perk.
 Your plane will be able to shoot a bullet only after some time by pressing the correct button.
 
-![Life perks](./Project 1945 source/resources/player/myplane_strip3.png)
+![Life perks](./Project_1945_source/resources/player/myplane_strip3.png)
 
 ## Perks
 
@@ -67,25 +67,25 @@ There are 2 kind of Perks that can be spawned and obtrained:
 
 ## Controls
 
-![Player's plane](./Project 1945 source/resources/ui/Icon.png)
+![Player's plane](./Project_1945_source/resources/ui/Icon.png)
 
 ### Player
 -Player movements: Arrow Keys
 -Shoot: Space bar
 
-![Player's bullet](./Project 1945 source/resources/player/bullet.png)
+![Player's bullet](./Project_1945_source/resources/player/bullet.png)
 
 ### Game Scene
 
 -Return to Main Menu: Esc
 
-![Water background](./Project 1945 source/resources/map/water.png)
+![Water background](./Project_1945_source/resources/map/water.png)
 
 ### Main Menu
 -Start a game: E
 -Quit the game: Q
 
-![Water background](./Project 1945 source/resources/player/explosion2_strip7.png)
+![Water background](./Project_1945_source/resources/player/explosion2_strip7.png)
 
 ## Copyright
 Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) 
