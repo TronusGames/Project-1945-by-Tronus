@@ -5,9 +5,7 @@
 Project 1945 is a top down scroller game made with SDL2, CMake and programmed in C as a project of study for the Italian Videogames Academy for the 3rd year course of Videogames programming.
 The game is based on the old videogame [1945: The Final Front](https://www.youtube.com/watch?v=uBIbxobSUcY) of the 2002.
 
-![Loading image](./bin/resources/extra/Loading.gif)
-
-## User Guide
+## User Guide ![Loading image](./bin/resources/extra/Loading.gif)
 
 In the Release folder you will find the Final Game if you want to play it immediatly.
 If you want to go inside the project and customize or take a look to the code just copy this repository in your computer and be sure to install CMake as project automation program and an Editor like Visual Studio Code.
