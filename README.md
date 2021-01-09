@@ -70,20 +70,20 @@ There are 2 kind of Perks that can be spawned and obtrained:
 ![Player's plane](./Release/resources/ui/Icon.png)
 
 ### Player
-Player movements: Arrow Keys\n
-Shoot: Space bar
+-Player movements: Arrow Keys
+-Shoot: Space bar
 
 ![Player's bullet](./Release/resources/player/bullet.png)
 
 ### Game Scene
 
-Return to Main Menu: Esc
+-Return to Main Menu: Esc
 
 ![Water background](./Release/resources/map/water.png)
 
 ### Main Menu
-Start a game: E
-Quit the game: Q
+-Start a game: E
+-Quit the game: Q
 
 ![Water background](./Release/resources/player/explosion2_strip7.png)
 
