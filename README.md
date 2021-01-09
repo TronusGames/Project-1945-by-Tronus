@@ -7,10 +7,10 @@ The game is based on the old videogame [1945: The Final Front](https://www.youtu
 
 ## User Guide
 
-![Loading image](./Release/resources/extra/Loading.gif)
-
 In the Release folder you will find the Final Game if you want to play it immediatly.
 If you want to go inside the project and customize or take a look to the code just copy this repository in your computer and be sure to install CMake as project automation program and an Editor like Visual Studio Code.
+
+![Loading image](./Release/resources/Loading.gif)
 
 ## Game Description
 In Project 1945 you will be able to Embark yourself in a 640x480 resolution adventure and save in the Main Menu your Best Scores and all your Boss Kills.
@@ -41,6 +41,7 @@ Losing all your Lifes or defeating the Final Boss will let the game restart, if 
 During the game some bullets, planes, perks and islands will be spawned in the top part of the screen and will move to the bottom part of the screen.
 The other planes and the Final Boss will not follow always a straight direction and sometimes they will move horizzontally to the rigth or to the left direction.
 The other planes sometimes will shoot some bullets ahead of them. You can also shoot your bullets.
+![Loading image](./Release/resources/score.png)
 When you lost a life and your plane is blinking you cannot be damaged or obtain any sort of Perk.
 Your plane will be able to shoot a bullet only after some time by pressing the correct button.
 
