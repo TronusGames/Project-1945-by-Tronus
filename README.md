@@ -41,11 +41,13 @@ Losing all your Lifes or defeating the Final Boss will let the game restart, if 
 During the game some bullets, planes, perks and islands will be spawned in the top part of the screen and will move to the bottom part of the screen.
 The other planes and the Final Boss will not follow always a straight direction and sometimes they will move horizzontally to the rigth or to the left direction.
 The other planes sometimes will shoot some bullets ahead of them. You can also shoot your bullets.
-![Loading image](./Release/resources/score.png)
+
+![Island1](./Release/resources/map/island1.png) ![Island2](./Release/resources/map/island2.png) ![Island3](./Release/resources/map/island3.png)
+
 When you lost a life and your plane is blinking you cannot be damaged or obtain any sort of Perk.
 Your plane will be able to shoot a bullet only after some time by pressing the correct button.
 
-![Info Panel](./Release/resources/player/myplane_strip3.png)
+![Life perks](./Release/resources/player/myplane_strip3.png)
 
 ## Perks
 
