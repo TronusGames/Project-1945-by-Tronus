@@ -35,7 +35,7 @@ On the bottom of the screen you will see an Info Panel about the statistics of t
 - a Score Counter, in the bottom middle part of the screen:  
 1) You will receive Score Points every time you destroy another plane or bullet or get a perk;
 
-![Info Panel(./Release/resources/ui/bottom.png)
+![Info Panel](./Release/resources/ui/bottom.png)
 
 Your plane is positioned in the bottom middle part of the screen, at the border with the below Info Panel. You will not be able to move into the Info Panel.
 Losing all your Lifes or defeating the Final Boss will let the game restart, if you want to quit and return to the Main Menu just press the "Esc" button.
@@ -45,7 +45,7 @@ The other planes sometimes will shoot some bullets ahead of them. You can also s
 When you lost a life and your plane is blinking you cannot be damaged or obtain any sort of Perk.
 Your plane will be able to shoot a bullet only after some time by pressing the correct button.
 
-![Info Panel(./Release/resources/player/myplane_strip3.png)
+![Info Panel](./Release/resources/player/myplane_strip3.png)
 
 ## Perks
 
