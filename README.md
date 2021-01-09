@@ -10,7 +10,7 @@ The game is based on the old videogame [1945: The Final Front](https://www.youtu
 In the Release folder you will find the Final Game if you want to play it immediatly.
 If you want to go inside the project and customize or take a look to the code just copy this repository in your computer and be sure to install CMake as project automation program and an Editor like Visual Studio Code.
 
-![Loading image](./Release/resources/Loading.gif)
+![Loading image](./Release/resources/loading.gif)
 
 ## Game Description
 In Project 1945 you will be able to Embark yourself in a 640x480 resolution adventure and save in the Main Menu your Best Scores and all your Boss Kills.
