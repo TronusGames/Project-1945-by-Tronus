@@ -8,7 +8,12 @@ The game is based on the old videogame [1945: The Final Front](https://www.youtu
 ## User Guide
 
 In the Release folder you will find the Final Game if you want to play it immediatly.
-If you want to go inside the project and customize or take a look to the code just copy this repository in your computer and be sure to install CMake as project automation program and an Editor like Visual Studio Code.
+
+## Developer Guidelines
+
+Install clang as compiler.
+Install CMake and use the compiling kit inside Visual Studio Code named amd64 to make builds.
+Inside Visual Studio Code make a Delete Cache and Reconfigure to refresh the project paths.
 
 ![Loading image](./Release/resources/loading.gif)
 

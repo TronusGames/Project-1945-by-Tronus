@@ -1,45 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\src\AudioMgr.c">
+    <ClCompile Include="C:\Users\FiercePC\Documents\GitHub\Project-1945-by-Tronus\Project 1945 source\src\AudioMgr.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\src\FontMgr.c">
+    <ClCompile Include="C:\Users\FiercePC\Documents\GitHub\Project-1945-by-Tronus\Project 1945 source\src\FontMgr.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\src\Game_Actors.c">
+    <ClCompile Include="C:\Users\FiercePC\Documents\GitHub\Project-1945-by-Tronus\Project 1945 source\src\Game_Actors.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\src\Inputs.c">
+    <ClCompile Include="C:\Users\FiercePC\Documents\GitHub\Project-1945-by-Tronus\Project 1945 source\src\Inputs.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\src\Islands.c">
+    <ClCompile Include="C:\Users\FiercePC\Documents\GitHub\Project-1945-by-Tronus\Project 1945 source\src\Islands.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\src\RenderMgr.c">
+    <ClCompile Include="C:\Users\FiercePC\Documents\GitHub\Project-1945-by-Tronus\Project 1945 source\src\RenderMgr.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\src\Scene.c">
+    <ClCompile Include="C:\Users\FiercePC\Documents\GitHub\Project-1945-by-Tronus\Project 1945 source\src\Scene.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\src\Utility.c">
+    <ClCompile Include="C:\Users\FiercePC\Documents\GitHub\Project-1945-by-Tronus\Project 1945 source\src\Utility.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\src\main.c">
+    <ClCompile Include="C:\Users\FiercePC\Documents\GitHub\Project-1945-by-Tronus\Project 1945 source\src\main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\FiercePC\Documents\GitHub\Project-1945-by-Tronus\Project 1945 source\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\resources\ui\appicon.rc">
+    <ResourceCompile Include="C:\Users\FiercePC\Documents\GitHub\Project-1945-by-Tronus\Project 1945 source\resources\ui\appicon.rc">
       <Filter>Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{4F145E66-21F5-338D-88B2-31D325C8EEA7}</UniqueIdentifier>
+      <UniqueIdentifier>{A27D35FC-5A97-3253-AD72-C0D4E3B1609C}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Release/Project_1945_by_Tronus.exe"
+			"path" : "Debug/Project_1945_by_Tronus.exe"
 		},
 		{
-			"path" : "Release/Project_1945_by_Tronus.pdb"
+			"path" : "Debug/Project_1945_by_Tronus.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -52,30 +52,30 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /O2 /Ob2 /DNDEBUG -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2/include"
+					"path" : "C:/Users/FiercePC/Documents/GitHub/Project-1945-by-Tronus/Project 1945 source/cmake/sdl2/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_image/include"
+					"path" : "C:/Users/FiercePC/Documents/GitHub/Project-1945-by-Tronus/Project 1945 source/cmake/sdl2_image/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_ttf/include"
+					"path" : "C:/Users/FiercePC/Documents/GitHub/Project-1945-by-Tronus/Project 1945 source/cmake/sdl2_ttf/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/include"
+					"path" : "C:/Users/FiercePC/Documents/GitHub/Project-1945-by-Tronus/Project 1945 source/cmake/sdl2_mixer/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/include"
+					"path" : "C:/Users/FiercePC/Documents/GitHub/Project-1945-by-Tronus/Project 1945 source/include"
 				}
 			],
 			"language" : "C",
@@ -96,30 +96,30 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-DWIN32"
+					"fragment" : "-DWIN32 -D_DEBUG"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2/include"
+					"path" : "C:/Users/FiercePC/Documents/GitHub/Project-1945-by-Tronus/Project 1945 source/cmake/sdl2/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_image/include"
+					"path" : "C:/Users/FiercePC/Documents/GitHub/Project-1945-by-Tronus/Project 1945 source/cmake/sdl2_image/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_ttf/include"
+					"path" : "C:/Users/FiercePC/Documents/GitHub/Project-1945-by-Tronus/Project 1945 source/cmake/sdl2_ttf/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/include"
+					"path" : "C:/Users/FiercePC/Documents/GitHub/Project-1945-by-Tronus/Project 1945 source/cmake/sdl2_mixer/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/include"
+					"path" : "C:/Users/FiercePC/Documents/GitHub/Project-1945-by-Tronus/Project 1945 source/include"
 				}
 			],
 			"language" : "RC",
@@ -141,11 +141,11 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /O2 /Ob2 /DNDEBUG -MD",
+				"fragment" : "/DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:windows",
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:windows",
 				"role" : "flags"
 			},
 			{

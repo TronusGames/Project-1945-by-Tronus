@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2
+# Install script for directory: C:/Users/FiercePC/Documents/GitHub/Project-1945-by-Tronus/Project 1945 source
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/FiercePC/Documents/GitHub/Project-1945-by-Tronus/Project 1945 source/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

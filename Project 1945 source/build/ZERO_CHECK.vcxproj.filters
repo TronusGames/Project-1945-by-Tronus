@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\build\CMakeFiles\f32c2b65dd586a096a36ab145e636b8b\generate.stamp.rule">
+    <CustomBuild Include="C:\Users\FiercePC\Documents\GitHub\Project-1945-by-Tronus\Project 1945 source\build\CMakeFiles\82ce860267cb47ad39a1834ce7ded55a\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{530141B5-5687-3F32-AC8B-7E660690765F}</UniqueIdentifier>
+      <UniqueIdentifier>{0C968A2B-4891-3F6A-A997-1F6F84152E90}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

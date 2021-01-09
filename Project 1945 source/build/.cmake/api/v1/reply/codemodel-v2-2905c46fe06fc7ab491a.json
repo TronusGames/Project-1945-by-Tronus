@@ -49,14 +49,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Project_1945_by_Tronus::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Project_1945_by_Tronus-Debug-58de0aa3a245f3d849ee.json",
+					"jsonFile" : "target-Project_1945_by_Tronus-Debug-a3e33d7254bf19582730.json",
 					"name" : "Project_1945_by_Tronus",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-Debug-93e1fcc03ef0cde68a5b.json",
+					"jsonFile" : "target-ZERO_CHECK-Debug-5348c7ff8cf634a21510.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				}
@@ -110,14 +110,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Project_1945_by_Tronus::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Project_1945_by_Tronus-Release-e205783fba212c05501c.json",
+					"jsonFile" : "target-Project_1945_by_Tronus-Release-b3ed516260e50fb007ff.json",
 					"name" : "Project_1945_by_Tronus",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-Release-93e1fcc03ef0cde68a5b.json",
+					"jsonFile" : "target-ZERO_CHECK-Release-5348c7ff8cf634a21510.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				}
@@ -171,14 +171,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Project_1945_by_Tronus::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Project_1945_by_Tronus-MinSizeRel-171540599398f4537130.json",
+					"jsonFile" : "target-Project_1945_by_Tronus-MinSizeRel-40c411d0d6e6fb80c041.json",
 					"name" : "Project_1945_by_Tronus",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-93e1fcc03ef0cde68a5b.json",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-5348c7ff8cf634a21510.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				}
@@ -232,14 +232,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Project_1945_by_Tronus::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Project_1945_by_Tronus-RelWithDebInfo-dc9d84554959dbb43909.json",
+					"jsonFile" : "target-Project_1945_by_Tronus-RelWithDebInfo-e40a18cd5b4c96815917.json",
 					"name" : "Project_1945_by_Tronus",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-93e1fcc03ef0cde68a5b.json",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-5348c7ff8cf634a21510.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				}
@@ -249,8 +249,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build",
-		"source" : "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2"
+		"build" : "C:/Users/FiercePC/Documents/GitHub/Project-1945-by-Tronus/Project 1945 source/build",
+		"source" : "C:/Users/FiercePC/Documents/GitHub/Project-1945-by-Tronus/Project 1945 source"
 	},
 	"version" : 
 	{

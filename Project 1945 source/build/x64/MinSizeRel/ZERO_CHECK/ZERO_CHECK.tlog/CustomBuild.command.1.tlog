@@ -1,6 +1,6 @@
-^C:\USERS\FIERCEPC\DESKTOP\AIV LEZIONI 3 ANNO\AIV C PROJ\0-EXERCISES\1945 SDL2\BUILD\CMAKEFILES\F32C2B65DD586A096A36AB145E636B8B\GENERATE.STAMP.RULE
+^C:\USERS\FIERCEPC\DOCUMENTS\GITHUB\PROJECT-1945-BY-TRONUS\PROJECT 1945 SOURCE\BUILD\CMAKEFILES\82CE860267CB47AD39A1834CE7DED55A\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2" "-BC:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Project_1945_by_Tronus.sln"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/FiercePC/Documents/GitHub/Project-1945-by-Tronus/Project 1945 source" "-BC:/Users/FiercePC/Documents/GitHub/Project-1945-by-Tronus/Project 1945 source/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/FiercePC/Documents/GitHub/Project-1945-by-Tronus/Project 1945 source/build/Project_1945_by_Tronus.sln"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
