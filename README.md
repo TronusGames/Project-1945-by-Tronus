@@ -1,12 +1,12 @@
 # Project 1945 by Tronus
 
-![Banner of the project](./bin/resources/extra/Title.png)
+![Banner of the project](./Release/resources/extra/Title.png)
 
 Project 1945 is a top down scroller game made with SDL2, CMake and programmed in C as a project of study for the Italian Videogames Academy for the 3rd year course of Videogames programming.
 The game is based on the old videogame [1945: The Final Front](https://www.youtube.com/watch?v=uBIbxobSUcY) of the 2002.
 
 
-![Loading image](./bin/resources/extra/Loading.gif)
+![Loading image](./Release/resources/extra/Loading.gif)
 
 ## User Guide
 
@@ -35,6 +35,7 @@ On the bottom of the screen you will see an Info Panel about the statistics of t
 - a Score Counter, in the bottom middle part of the screen:  
 1) You will receive Score Points every time you destroy another plane or bullet or get a perk;
 
+![Info Panel(./Release/resources/ui/bottom.png)
 
 Your plane is positioned in the bottom middle part of the screen, at the border with the below Info Panel. You will not be able to move into the Info Panel.
 Losing all your Lifes or defeating the Final Boss will let the game restart, if you want to quit and return to the Main Menu just press the "Esc" button.
@@ -43,6 +44,8 @@ The other planes and the Final Boss will not follow always a straight direction 
 The other planes sometimes will shoot some bullets ahead of them. You can also shoot your bullets.
 When you lost a life and your plane is blinking you cannot be damaged or obtain any sort of Perk.
 Your plane will be able to shoot a bullet only after some time by pressing the correct button.
+
+![Info Panel(./Release/resources/player/myplane_strip3.png)
 
 ## Perks
 
@@ -55,15 +58,17 @@ There are 2 kind of Perks that can be spawned and obtrained:
 - Special Bullets Perk:
 1) Will grant you a bigger amount of bullets to be shooted for a short period of time (so press fastly your Space Bar);
 
-## Player Controls
+## Controls
+
+### Player
 Player movements: Arrow Keys
 Shoot: Space bar
 
-## Game Scene Controls
+### Game Scene
 
 Return to Main Menu: Esc
 
-## Main Menu Controls
+### Main Menu
 Start a game: E
 Quit the game: Q
 
