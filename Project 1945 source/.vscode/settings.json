@@ -1,0 +1,11 @@
+{
+    "cmake.configureSettings": {
+        
+        "CMAKE_MODULE_PATH": "${workspaceFolder}/cmake/",
+        "SDL2_PATH" :  "${workspaceFolder}/cmake/sdl2",
+	"SDL2_IMAGE_PATH": "${workspaceFolder}/cmake/sdl2_image/", 
+        "SDL2_TTF_PATH": "${workspaceFolder}/cmake/sdl2_ttf/",
+        "SDL2_MIXER_PATH": "${workspaceFolder}/cmake/sdl2_mixer/",
+    },
+    "cmake.configureOnOpen": true
+}

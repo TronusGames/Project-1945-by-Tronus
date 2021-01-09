@@ -1,0 +1,10 @@
+^C:\USERS\FIERCEPC\DESKTOP\AIV LEZIONI 3 ANNO\AIV C PROJ\0-EXERCISES\1945 SDL2\BUILD\CMAKEFILES\F32C2B65DD586A096A36AB145E636B8B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2" "-BC:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Project_1945_by_Tronus.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

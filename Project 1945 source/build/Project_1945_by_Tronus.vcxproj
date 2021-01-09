@@ -1,0 +1,1074 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B6FD4AA4-4019-3AAB-9C68-188C46F5F477}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Project_1945_by_Tronus</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Project_1945_by_Tronus.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Project_1945_by_Tronus</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Project_1945_by_Tronus.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Project_1945_by_Tronus</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Project_1945_by_Tronus.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Project_1945_by_Tronus</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Project_1945_by_Tronus.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Project_1945_by_Tronus</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_image\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_ttf\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_mixer\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_image\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_ttf\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_mixer\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_image\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_ttf\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_mixer\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>																			</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2/lib/x64/SDL2.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_image/lib/x64/SDL2_image.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_image/lib/x64/libjpeg-9.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_image/lib/x64/libpng16-16.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_image/lib/x64/libtiff-5.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_image/lib/x64/libwebp-7.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_image/lib/x64/zlib1.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_ttf/lib/x64/SDL2_ttf.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_ttf/lib/x64/libfreetype-6.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_ttf/lib/x64/zlib1.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/SDL2_mixer.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libFLAC-8.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libmodplug-1.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libmpg123-0.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libogg-0.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libopus-0.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libopusfile-0.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libvorbis-0.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libvorbisfile-3.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_echo_color --cyan "Copy Resources..."
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/resources" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Debug/resources"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\cmake\sdl2\lib\x64\SDL2.lib;..\cmake\sdl2_image\lib\x64\SDL2_image.lib;..\cmake\sdl2_ttf\lib\x64\SDL2_ttf.lib;..\cmake\sdl2_mixer\lib\x64\SDL2_mixer.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Debug/Project_1945_by_Tronus.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Debug/Project_1945_by_Tronus.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_image\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_ttf\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_mixer\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_image\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_ttf\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_mixer\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_image\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_ttf\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_mixer\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>																			</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2/lib/x64/SDL2.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_image/lib/x64/SDL2_image.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_image/lib/x64/libjpeg-9.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_image/lib/x64/libpng16-16.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_image/lib/x64/libtiff-5.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_image/lib/x64/libwebp-7.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_image/lib/x64/zlib1.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_ttf/lib/x64/SDL2_ttf.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_ttf/lib/x64/libfreetype-6.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_ttf/lib/x64/zlib1.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/SDL2_mixer.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libFLAC-8.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libmodplug-1.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libmpg123-0.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libogg-0.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libopus-0.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libopusfile-0.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libvorbis-0.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libvorbisfile-3.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_echo_color --cyan "Copy Resources..."
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/resources" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Release/resources"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\cmake\sdl2\lib\x64\SDL2.lib;..\cmake\sdl2_image\lib\x64\SDL2_image.lib;..\cmake\sdl2_ttf\lib\x64\SDL2_ttf.lib;..\cmake\sdl2_mixer\lib\x64\SDL2_mixer.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Release/Project_1945_by_Tronus.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/Release/Project_1945_by_Tronus.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_image\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_ttf\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_mixer\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_image\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_ttf\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_mixer\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_image\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_ttf\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_mixer\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>																			</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2/lib/x64/SDL2.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_image/lib/x64/SDL2_image.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_image/lib/x64/libjpeg-9.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_image/lib/x64/libpng16-16.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_image/lib/x64/libtiff-5.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_image/lib/x64/libwebp-7.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_image/lib/x64/zlib1.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_ttf/lib/x64/SDL2_ttf.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_ttf/lib/x64/libfreetype-6.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_ttf/lib/x64/zlib1.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/SDL2_mixer.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libFLAC-8.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libmodplug-1.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libmpg123-0.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libogg-0.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libopus-0.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libopusfile-0.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libvorbis-0.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libvorbisfile-3.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_echo_color --cyan "Copy Resources..."
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/resources" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/MinSizeRel/resources"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\cmake\sdl2\lib\x64\SDL2.lib;..\cmake\sdl2_image\lib\x64\SDL2_image.lib;..\cmake\sdl2_ttf\lib\x64\SDL2_ttf.lib;..\cmake\sdl2_mixer\lib\x64\SDL2_mixer.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/MinSizeRel/Project_1945_by_Tronus.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/MinSizeRel/Project_1945_by_Tronus.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_image\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_ttf\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_mixer\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_image\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_ttf\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_mixer\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_image\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_ttf\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\sdl2_mixer\include;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>																			</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2/lib/x64/SDL2.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_image/lib/x64/SDL2_image.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_image/lib/x64/libjpeg-9.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_image/lib/x64/libpng16-16.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_image/lib/x64/libtiff-5.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_image/lib/x64/libwebp-7.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_image/lib/x64/zlib1.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_ttf/lib/x64/SDL2_ttf.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_ttf/lib/x64/libfreetype-6.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_ttf/lib/x64/zlib1.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/SDL2_mixer.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libFLAC-8.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libmodplug-1.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libmpg123-0.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libogg-0.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libopus-0.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libopusfile-0.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libvorbis-0.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/sdl2_mixer/lib/x64/libvorbisfile-3.dll" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_echo_color --cyan "Copy Resources..."
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/resources" "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/RelWithDebInfo/resources"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\cmake\sdl2\lib\x64\SDL2.lib;..\cmake\sdl2_image\lib\x64\SDL2_image.lib;..\cmake\sdl2_ttf\lib\x64\SDL2_ttf.lib;..\cmake\sdl2_mixer\lib\x64\SDL2_mixer.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/RelWithDebInfo/Project_1945_by_Tronus.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/RelWithDebInfo/Project_1945_by_Tronus.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2" "-BC:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build" --check-stamp-file "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\build\CMakeFiles\3.19.2\CMakeCCompiler.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\build\CMakeFiles\3.19.2\CMakeRCCompiler.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\build\CMakeFiles\3.19.2\CMakeSystem.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\FindSDL2.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\FindSDL2TTF.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\FindSDL2_image.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\FindSDL2_mixer.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2" "-BC:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build" --check-stamp-file "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\build\CMakeFiles\3.19.2\CMakeCCompiler.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\build\CMakeFiles\3.19.2\CMakeRCCompiler.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\build\CMakeFiles\3.19.2\CMakeSystem.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\FindSDL2.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\FindSDL2TTF.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\FindSDL2_image.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\FindSDL2_mixer.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2" "-BC:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build" --check-stamp-file "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\build\CMakeFiles\3.19.2\CMakeCCompiler.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\build\CMakeFiles\3.19.2\CMakeRCCompiler.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\build\CMakeFiles\3.19.2\CMakeSystem.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\FindSDL2.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\FindSDL2TTF.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\FindSDL2_image.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\FindSDL2_mixer.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2" "-BC:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build" --check-stamp-file "C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\build\CMakeFiles\3.19.2\CMakeCCompiler.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\build\CMakeFiles\3.19.2\CMakeRCCompiler.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\build\CMakeFiles\3.19.2\CMakeSystem.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\FindSDL2.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\FindSDL2TTF.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\FindSDL2_image.cmake;C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\cmake\FindSDL2_mixer.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\src\AudioMgr.c" />
+    <ClCompile Include="C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\src\FontMgr.c" />
+    <ClCompile Include="C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\src\Game_Actors.c" />
+    <ClCompile Include="C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\src\Inputs.c" />
+    <ClCompile Include="C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\src\Islands.c" />
+    <ClCompile Include="C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\src\RenderMgr.c" />
+    <ClCompile Include="C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\src\Scene.c" />
+    <ClCompile Include="C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\src\Utility.c" />
+    <ClCompile Include="C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\src\main.c" />
+    <ResourceCompile Include="C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\resources\ui\appicon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\FiercePC\Desktop\AIV Lezioni 3 anno\AIV C proj\0-Exercises\1945 Sdl2\build\ZERO_CHECK.vcxproj">
+      <Project>{9D4A84F9-E573-335B-B729-4AC13D698F95}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

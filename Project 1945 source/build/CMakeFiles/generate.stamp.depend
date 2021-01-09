@@ -1,0 +1,31 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Platform/WindowsPaths.cmake
+C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/CMakeLists.txt
+C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/CMakeFiles/3.19.2/CMakeCCompiler.cmake
+C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/CMakeFiles/3.19.2/CMakeRCCompiler.cmake
+C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/CMakeFiles/3.19.2/CMakeSystem.cmake
+C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/FindSDL2.cmake
+C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/FindSDL2TTF.cmake
+C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/FindSDL2_image.cmake
+C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/cmake/FindSDL2_mixer.cmake

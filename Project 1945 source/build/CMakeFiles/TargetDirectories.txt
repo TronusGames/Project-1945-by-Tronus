@@ -1,0 +1,3 @@
+C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/CMakeFiles/Project_1945_by_Tronus.dir
+C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/FiercePC/Desktop/AIV Lezioni 3 anno/AIV C proj/0-Exercises/1945 Sdl2/build/CMakeFiles/ZERO_CHECK.dir
