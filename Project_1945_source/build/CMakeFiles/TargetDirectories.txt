@@ -1,3 +1,0 @@
-C:/Users/FiercePC/Documents/GitHub/Project-1945-by-Tronus/Project 1945 source/build/CMakeFiles/Project_1945_by_Tronus.dir
-C:/Users/FiercePC/Documents/GitHub/Project-1945-by-Tronus/Project 1945 source/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/FiercePC/Documents/GitHub/Project-1945-by-Tronus/Project 1945 source/build/CMakeFiles/ZERO_CHECK.dir
