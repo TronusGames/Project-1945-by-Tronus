@@ -15,7 +15,7 @@ Install clang as compiler.
 Install CMake and use the compiling kit inside Visual Studio Code named amd64 to make builds.
 Inside Visual Studio Code make a Delete Cache and Reconfigure to refresh the project paths.
 
-Install following plugins in VSCode:
+Install the following plugins in Visual Studio Code:
 
     C/C++ Intellisense
     CMake Tools
